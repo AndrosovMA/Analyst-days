@@ -1,0 +1,17 @@
+@startuml
+
+!includeurl https://raw.githubusercontent.com/Cladkuu/Analyst-days/main/7.%20%D0%9D%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/7.1%20%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D1%8B/1_service_A.puml
+!includeurl https://raw.githubusercontent.com/Cladkuu/Analyst-days/main/7.%20%D0%9D%D0%B0%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/7.1%20%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D1%8B/2_service_B.puml
+
+autonumber
+
+admin->A: $A_Create_User
+admin->A: $A_Get_User
+
+admin->B: $B_Create_Role
+admin->B: $B_Get_Role
+
+@enduml
+
+
+
